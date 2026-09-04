@@ -1,0 +1,17 @@
+:root {
+  --ink: #0d0e10;
+  --surface: #151619;
+  --text: #f2f2f0;
+  --muted: #85858a;
+  --line: #2a2b2f;
+  --accent: #00cfff;
+  --display: "Space Grotesk", "Arial Narrow", sans-serif;
+  --body: Inter, Arial, sans-serif;
+  --container: min(1340px, calc(100% - 48px));
+  --ease: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+@media (max-width: 600px) {
+  :root {
+    --container: calc(100% - 32px);
+  }
+}
